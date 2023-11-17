@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useState } from "react";
 import Image from "next/image";
-import { NAV_LINKS } from "../../constants";
+import { NAV_LINKS } from "@/constants";
 import Button from "@/components/button";
 const navbar = () => {
   const [showMenu,setShowMenu]=useState(false)

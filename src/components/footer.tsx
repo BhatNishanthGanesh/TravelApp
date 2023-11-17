@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import { FOOTER_CONTACT_INFO, FOOTER_LINKS, SOCIALS } from '../../constants'
+import { FOOTER_CONTACT_INFO, FOOTER_LINKS, SOCIALS } from '@/constants'
 
 type FooterColProps={
   title:string
