@@ -1,11 +1,10 @@
-'use client'
-
+"use client"
 import Link from "next/link";
-import { useState } from "react";
+import {useState } from "react";
 import Image from "next/image";
 import { NAV_LINKS } from "@/constants";
 import Button from "@/components/button";
-const navbar = () => {
+const Navbar = () => {
   const [showMenu,setShowMenu]=useState(false)
   const toggleMenu = () => {
     setShowMenu(!showMenu);
@@ -46,4 +45,4 @@ const navbar = () => {
   );
 };
 
-export default navbar;
+export default Navbar;
